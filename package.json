@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jumodada/node_demo/issues"
   },
-  "homepage": "https://github.com/jumodada/node_demo#readme"
+  "homepage": "https://github.com/jumodada/node_demo#readme",
+  "dependencies": {
+    "koa-generator": "^1.1.17"
+  }
 }
