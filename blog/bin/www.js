@@ -1,8 +1,8 @@
-const http  = require('http')
+const http = require('http')
+const PORT = 8000
+const app = require('../app.js')
 
-const port = 9000
+const server = http.createServer(app)
 
-const app = require('../app')
-
-const server  = http.createServer(app)
-server.listen(port)
+server.listen(8000)
+console.log('OK')
